@@ -1,4 +1,4 @@
-//proof of concept Bitcon brain wallet
+//proof of concept Bitcoin brain wallet
 
 function rand_word() {
     var i = Math.floor(Math.random() * words.length);
