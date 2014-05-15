@@ -6,9 +6,9 @@ Derive the bitcoin address (and key) when needed.
 ## How it works
 
 The program generates a random phrase of seven words from a pool of 4270 common English words
-(see words.txt). The number of possible phrases is on the order of 1E25, or about 84 bits of entropy.
+(see words.js). The number of possible phrases is on the order of 1E25, or about 84 bits of entropy.
 
-The phrase is transformed into a 256-bit bitcoin private key using Scrypt with the following parameters:
+The phrase is transformed into a 256-bit Bitcoin private key using Scrypt with the following parameters:
 
 * no salt
 * N = 16384
