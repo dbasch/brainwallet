@@ -16,6 +16,8 @@ The phrase is transformed into a 256-bit bitcoin private key using Scrypt with t
 * p = 1
 * L = 32
 
+Try it [here](http://diegobasch.com/brainwallet/).
+
 ## WARNING WARNING WARNING 
 
  Be very careful when using this program. If you plan to send money to an address
@@ -29,5 +31,4 @@ The phrase is transformed into a 256-bit bitcoin private key using Scrypt with t
 
   Copyright © 2014 Diego Basch
 
-  Distributed under the Eclipse Public License either version 1.0 or (at
-      your option) any later version.
+  Distributed under the Eclipse Public License version 1.0
